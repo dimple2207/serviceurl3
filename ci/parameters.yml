@@ -6,3 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello, world!"
+pipeline-name: master-data-management
+pipeline-type: app
+project-dir: /
