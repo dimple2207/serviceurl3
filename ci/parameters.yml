@@ -1,3 +1,8 @@
-pipeline-name: master-data-management
-pipeline-type: app
-project-dir: /
+name: Hello
+
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, world!"
